@@ -1,0 +1,56 @@
+/* ==UserStyle==
+@name           Better AozoraBunko XHTML Layout
+@namespace      lunarabbit/style/custom
+@version        1.0.0
+@description    -
+@author         LunaRabbit66
+==/UserStyle== */
+
+@-moz-document regexp("https://www\\.aozora\\.gr\\.jp/cards/\\d+/files/.*") {
+body {
+        background-color: #fdf5e6;
+        width: 750px;
+        margin: auto;
+        font-family: serif;
+    }
+
+    .title {
+        border-bottom: #000000;
+        border-bottom-width: 2px;
+        border-bottom-style: groove;
+    }
+
+    .author, .translator {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 18px;
+    }
+
+    .main_text {
+        line-height: 2.8;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .main_text > div {
+        line-height: 2.8;
+        border-left-width: 2px;
+        border-left-style: solid;
+        border-left-color: #ffdd92;
+        background-color: #ffeed0;
+    }
+    
+    .sesame_dot {
+        font-weight: bold;
+        font-style: normal;
+        padding: 0px;
+        background: none;
+    }
+    .notes, .illustration {
+        display:none;
+    }
+    
+    .bibliographical_information,.notation_notes, .after_text {
+        font-size: 12px;
+    }
+}
