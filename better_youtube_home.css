@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name           Better Youtube Home
+@namespace      lunarabbit/style/custom
+@version        1.0.0
+@description    -
+@author         LunaRabbit66
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.youtube.com/") {
+    ytd-rich-item-renderer[rendered-from-rich-grid] {
+        width: 26rem;
+    }
+
+    ytd-rich-section-renderer {
+        display: none;
+    }
+}
